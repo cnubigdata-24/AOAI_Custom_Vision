@@ -1,3 +1,5 @@
+# download dataset: https://www.kaggle.com/datasets/arunrk7/surface-crack-detection
+
 import requests
 
 ENDPOINT = "https://cv20250328-prediction.cognitiveservices.azure.com/customvision/v3.0/Prediction/9d93aee2-c347-43c6-977b-cd2cd756d769/classify/iterations/Iteration1/image"
