@@ -2,7 +2,10 @@
 
 import requests
 
+# ENDPOINT: https://{prediction-resource-name}.cognitiveservices.azure.com/customvision/v3.0/Prediction/{project-id}/classify/iterations/{iteration-name}/image
 ENDPOINT = "https://cv20250328-prediction.cognitiveservices.azure.com/customvision/v3.0/Prediction/9d93aee2-c347-43c6-977b-cd2cd756d769/classify/iterations/Iteration1/image"
+
+# PREDICTION_KEY => MS Azure CV Prediction Key
 PREDICTION_KEY = "9jH74vKM7C4tq6M144sE9MUGVnqKqGpCutBFXpgBZzihrhCTp4KHJQQJ99BCACYeBjFXJ3w3AAAIACOG08qz"
 
 HEADERS = {
